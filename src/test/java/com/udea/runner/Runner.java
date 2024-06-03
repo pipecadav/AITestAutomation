@@ -1,4 +1,4 @@
-package com.intertec.runner;
+package com.udea.runner;
 
 
 import io.cucumber.junit.Cucumber;
@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
         plugin = {
                 "pretty",
                 "html:target/cucumber-html-report"},
-        glue = {"com.intertec"},
+        glue = {"com.udea"},
         features = {"src/test/resources/features"}
 )
 public class Runner {

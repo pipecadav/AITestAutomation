@@ -1,4 +1,4 @@
-package com.intertec.driver;
+package com.udea.driver;
 
 import io.cucumber.java.After;
 import io.cucumber.java.Before;

@@ -1,12 +1,12 @@
-package com.intertec.stepdefinitions;
+package com.udea.stepdefinitions;
 
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import com.intertec.userinterface.pages.AmazonPage;
-import com.intertec.userinterface.pages.ProductDetailsPage;
-import com.intertec.userinterface.pages.SearchResultsPage;
+import com.udea.userinterface.pages.AmazonPage;
+import com.udea.userinterface.pages.ProductDetailsPage;
+import com.udea.userinterface.pages.SearchResultsPage;
 
 public class AmazonSteps {
 

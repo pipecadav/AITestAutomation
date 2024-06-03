@@ -1,7 +1,7 @@
-package com.intertec.userinterface.pages;
+package com.udea.userinterface.pages;
 
-import com.intertec.driver.PageObject;
-import com.intertec.userinterface.components.SearchHeader;
+import com.udea.driver.PageObject;
+import com.udea.userinterface.components.SearchHeader;
 import lombok.Getter;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;

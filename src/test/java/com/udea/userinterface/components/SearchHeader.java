@@ -1,6 +1,6 @@
-package com.intertec.userinterface.components;
+package com.udea.userinterface.components;
 
-import com.intertec.driver.WebComponent;
+import com.udea.driver.WebComponent;
 import lombok.Getter;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;

@@ -1,4 +1,4 @@
-package com.intertec.driver;
+package com.udea.driver;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;

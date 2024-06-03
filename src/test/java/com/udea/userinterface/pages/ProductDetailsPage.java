@@ -1,7 +1,7 @@
-package com.intertec.userinterface.pages;
+package com.udea.userinterface.pages;
 
-import com.intertec.driver.PageObject;
-import com.intertec.userinterface.components.BuyingOptions;
+import com.udea.driver.PageObject;
+import com.udea.userinterface.components.BuyingOptions;
 import lombok.Getter;
 import org.assertj.core.api.Assertions;
 import org.openqa.selenium.WebElement;

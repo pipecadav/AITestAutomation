@@ -1,4 +1,4 @@
-package com.intertec.driver;
+package com.udea.driver;
 
 import lombok.Getter;
 
