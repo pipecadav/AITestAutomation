@@ -13,7 +13,7 @@ import java.util.List;
 
 public class CodeGenerator {
     private static final String API_KEY = "";
-    private static final String OPENAI_URL = "https://api.openai.com/v1/engines/davinci-codex/completions";
+    private static final String OPENAI_URL = "https://api.openai.com/v1/chat/completions";
 
     public static String generateStepImpl(String stepDescription) throws IOException {
         CloseableHttpClient httpClient = HttpClients.createDefault();
@@ -23,7 +23,7 @@ public class CodeGenerator {
 
         JsonObject json = new JsonObject();
         json.addProperty("prompt", "Convert the following Gherkin step into Java code using Selenium:\nStep: " + stepDescription);
-        json.addProperty("max_tokens", 150);
+        //json.addProperty("max_tokens", 150);
 
         request.setEntity(new StringEntity(json.toString()));
 
